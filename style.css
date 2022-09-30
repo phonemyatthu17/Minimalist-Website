@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0;
+}
+
+body {
+    padding: 38px;
+    background-color: #0A090A;
+    color: white;
+}
+
+html,body {
+    height: 100%;
+}
+
+:root {
+    --main-color: #1D1310;
+    --secondary-color: #241111;
+}
+
+@font-face {
+    font-family: "argonite";
+    src: url(/assets/stone\ orgonite.woff);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    object-fit: cover;
+}
+
+h2 {
+    font-size: 2.5rem;
+    line-height: 125%;
+    padding: 1rem 0;
+}
+
+.links {
+    display: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    font-family: 'argonite', sans-serif;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+
+.logo img {
+    width: 1.5rem;
+}
+
+.selling-point {
+    margin-top: 20vh;
+    text-align: center;
+}
+
+.selling-point h2 {
+    font-size: 2.5rem;
+}
+
+.selling-point h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    line-height: 125%;
+}
+
+.ctas {
+    padding: 50px 0;
+}
+
+.ctas button{
+    padding: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    margin: 10px ;
+}
+
+.ctas .cta-main {
+    background-color: var(--main-color);
+    color: white;
+}
+
+.ctas .cta-second {
+    background-color: var(--secondary-color);
+    color: wheat;
+}
