@@ -6,7 +6,6 @@
 
 body {
     padding: 38px;
-    background-color: #0A090A;
     color: white;
 }
 
@@ -30,6 +29,14 @@ nav {
     justify-content: space-between;
 }
 
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 1.1rem;
+}
+
 .hero {
     position: absolute;
     left: 0;
@@ -40,10 +47,8 @@ nav {
     object-fit: cover;
 }
 
-h2 {
-    font-size: 2.5rem;
-    line-height: 125%;
-    padding: 1rem 0;
+.main-page {
+    height: 100vh;
 }
 
 .links {
@@ -71,12 +76,12 @@ h2 {
 }
 
 .selling-point h2 {
-    font-size: 2.5rem;
+    line-height: 125%;
+    padding: 1rem 0;
 }
 
 .selling-point h3 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.1rem;
     line-height: 125%;
 }
 
@@ -99,4 +104,52 @@ h2 {
 .ctas .cta-second {
     background-color: var(--secondary-color);
     color: wheat;
+}
+
+.classes {
+    color: burlywood;
+    font-family: 'argonite', sans-serif;
+    text-align: center;
+}
+
+.classes h2 {
+    margin-bottom: 1rem;
+}
+
+.videos video {
+    margin-top: 1rem;
+    width: 100%;
+    border-radius: 1.5rem;
+}
+
+.pilates,.yoga,.meditation {
+    position: relative;
+}
+
+.videos h4{
+    position: absolute;
+    bottom: 10%;
+    transform: translate(-50%, -10%);
+    left: 50%;
+    font-size: 1.5rem;
+}
+
+.about {
+    margin-top: 3rem;
+    color: black;
+}
+
+.about h2 {
+    margin-bottom: 1rem;
+    font-family: 'argonite', sans-serif;
+}
+
+.about p {
+    line-height: 150%;
+    font-size: 1.2rem;
+}
+
+.about img {
+    width: 100%;
+    margin-top: 2rem;
 }
