@@ -1,155 +1,161 @@
 * {
-    box-sizing: border-box;
-    margin: 0 ;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    padding: 38px;
-    color: white;
+  padding: 38px;
+  color: white;
+  font-family: "Roboto", sans-serif;
 }
 
-html,body {
-    height: 100%;
+html,
+body {
+  height: 100%;
 }
 
 :root {
-    --main-color: #1D1310;
-    --secondary-color: #241111;
+  --main-color: #1d1310;
+  --secondary-color: #241111;
 }
 
 @font-face {
-    font-family: "argonite";
-    src: url(/assets/stone\ orgonite.woff);
+  font-family: "argonite";
+  src: url(/assets/stone\ orgonite.woff);
 }
 
 nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 h2 {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 
 h3 {
-    font-size: 1.1rem;
+  font-size: 1.1rem;
 }
 
 .hero {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100vh;
-    z-index: -1;
-    object-fit: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  object-fit: cover;
 }
 
 .main-page {
-    height: 100vh;
+  height: 100vh;
 }
 
 .links {
-    display: none;
+  display: none;
 }
 
 .logo {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .logo h1 {
-    font-family: 'argonite', sans-serif;
-    font-size: 1rem;
-    margin-left: 0.5rem;
+  font-family: "argonite", sans-serif;
+  font-size: 1rem;
+  margin-left: 0.5rem;
 }
 
 .logo img {
-    width: 1.5rem;
+  width: 1.5rem;
 }
 
 .selling-point {
-    margin-top: 20vh;
-    text-align: center;
+  margin-top: 20vh;
+  text-align: center;
 }
 
 .selling-point h2 {
-    line-height: 125%;
-    padding: 1rem 0;
+  line-height: 125%;
+  padding: 1rem 0;
 }
 
 .selling-point h3 {
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 125%;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 125%;
 }
 
 .ctas {
-    padding: 50px 0;
+  padding: 50px 0;
 }
 
-.ctas button{
-    padding: 1rem;
-    border: none;
-    border-radius: 0.5rem;
-    margin: 10px ;
+.ctas button {
+  padding: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  margin: 10px;
 }
 
 .ctas .cta-main {
-    background-color: var(--main-color);
-    color: white;
+  background-color: var(--main-color);
+  color: white;
 }
 
 .ctas .cta-second {
-    background-color: var(--secondary-color);
-    color: wheat;
+  background-color: var(--secondary-color);
+  color: wheat;
 }
 
 .classes {
-    color: burlywood;
-    font-family: 'argonite', sans-serif;
-    text-align: center;
+  color: burlywood;
+  font-family: "argonite", sans-serif;
+  text-align: center;
 }
 
 .classes h2 {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .videos video {
-    margin-top: 1rem;
-    width: 100%;
-    border-radius: 1.5rem;
+  margin-top: 1rem;
+  width: 100%;
+  border-radius: 1.5rem;
 }
 
-.pilates,.yoga,.meditation {
-    position: relative;
+.pilates,
+.yoga,
+.meditation {
+  position: relative;
 }
 
-.videos h4{
-    position: absolute;
-    bottom: 10%;
-    transform: translate(-50%, -10%);
-    left: 50%;
-    font-size: 1.5rem;
+.videos h4 {
+  position: absolute;
+  bottom: 10%;
+  transform: translate(-50%, -10%);
+  left: 50%;
+  font-size: 1.5rem;
 }
 
 .about {
-    margin-top: 3rem;
-    color: black;
+  margin-top: 3rem;
+  color: black;
 }
 
 .about h2 {
-    margin-bottom: 1rem;
-    font-family: 'argonite', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-family: "argonite", sans-serif;
+  text-align: center;
 }
 
 .about p {
-    line-height: 150%;
-    font-size: 1.2rem;
+  line-height: 150%;
+  font-size: 1.1rem;
 }
 
 .about img {
-    width: 100%;
-    margin-top: 2rem;
+  width: 100%;
+  margin-top: 2rem;
 }
