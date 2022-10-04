@@ -220,4 +220,25 @@ h3 {
     text-align: start;
     margin-left: 40%;
   }
+
+  .selling-point {
+    padding-top: 6rem;
+  }
+
+  .ctas button {
+    padding: 1.5rem;
+    width: 15%;
+    font-size: 20px;
+    border-radius: 1.5rem;
+  }
+
+  .ctas .cta-main:hover {
+    background-color: var(--secondary-color);
+    color: wheat;
+  }
+
+  .ctas .cta-second:hover {
+    background-color: var(--main-color);
+    color: white;
+  }
 }
