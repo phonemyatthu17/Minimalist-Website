@@ -118,6 +118,7 @@ h3 {
   border: none;
   border-radius: 0.5rem;
   margin: 10px;
+  font-weight: bold;
 }
 
 .ctas .cta-main {
@@ -180,4 +181,43 @@ h3 {
 .about img {
   width: 100%;
   margin-top: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .video {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+
+  .video .videos {
+    width: 80%;
+    border-radius: 50px;
+  }
+
+  .about {
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+  }
+
+  .about img {
+    width: 50%;
+  }
+
+  .about > div {
+    flex: 1;
+  }
+
+  .about p {
+    margin-left: 40%;
+    width: 50%;
+  }
+
+  .about h2 {
+    text-align: start;
+    margin-left: 40%;
+  }
 }
